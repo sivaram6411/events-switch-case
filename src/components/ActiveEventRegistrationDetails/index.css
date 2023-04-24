@@ -1,0 +1,82 @@
+/* Write your CSS here */
+/* ............NoActiveEvent...... */
+.no-active-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #64748b;
+  text-align: center;
+}
+/* .......returnYetToRegister......... */
+.yet-to-register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register-image {
+  width: 70%;
+}
+.register-content {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #64748b;
+  text-align: center;
+}
+.register-button {
+  height: 45px;
+  align-self: stretch;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  background-color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+/* ..........Registered.......... */
+.registered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registered-image {
+  width: 50%;
+}
+.registered-content {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  color: #323f4b;
+  text-align: center;
+}
+/* ............RegistrationsClosed.............. */
+.registrations-closed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registrations-closed-image {
+  width: 70%;
+}
+.registrations-closed-text {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+  color: #323f4b;
+}
+.registrations-closed-soon-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #475569;
+  width: 300px;
+  text-align: center;
+}
